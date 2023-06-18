@@ -62,3 +62,32 @@ header {
   font-size: 20px;
   font-weight: black;
 }
+
+.hero-wrapper {
+  width: 100%;
+  height: calc(100vh - 78px);
+
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: black;
+  text-align: center;
+  width: 100%;
+  max-width: 793px;
+}
